@@ -1,0 +1,22 @@
+Steps:
+
+A. pick a task, try to run it
+
+B. Build Dask distributed on my own fork
+
+C. make following code modifications and try 
+
+	1. Turn off work-stealing
+	2. turn off task placement heuristics
+	3. Turn of LIFO worker scheduling
+
+D. benchmark
+
+
+-=-=-=-=
+RSDS expiremental setup
+
+For our scaling experiments we use 1 to 63 worker nodes (24-
+1512 DASK workers), for the rest of our experiments we use
+either 1 or 7 worker nodes (24 or 168 DASK workers)
+
