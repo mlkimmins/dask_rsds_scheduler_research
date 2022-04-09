@@ -19,4 +19,12 @@ RSDS expiremental setup
 For our scaling experiments we use 1 to 63 worker nodes (24-
 1512 DASK workers), for the rest of our experiments we use
 either 1 or 7 worker nodes (24 or 168 DASK workers)
+-=-=-==-
 
+today (apr 9):
+
+1. try to figure out profiler
+
+2. try to set up testbench
+
+3. 
